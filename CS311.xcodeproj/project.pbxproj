@@ -23,7 +23,6 @@
 		4294BC232170320C00996A47 /* account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = account.cpp; sourceTree = "<group>"; };
 		4294BC242170320C00996A47 /* main4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main4.cpp; sourceTree = "<group>"; };
 		4294BC252170320C00996A47 /* checking_account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checking_account.cpp; sourceTree = "<group>"; };
-		4294BC2A2170320C00996A47 /* CS311.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CS311.xcodeproj; sourceTree = "<group>"; };
 		4294BC2E2170320C00996A47 /* pgm1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pgm1.cpp; sourceTree = "<group>"; };
 		4294BC2F2170320C00996A47 /* reading_list.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = reading_list.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,7 +31,6 @@
 		4294BBEA217031B100996A47 = {
 			isa = PBXGroup;
 			children = (
-				4294BC2A2170320C00996A47 /* CS311.xcodeproj */,
 				4294BC2D2170320C00996A47 /* PGM1 */,
 				4294BC102170320B00996A47 /* PGM2 */,
 				4294BC142170320B00996A47 /* PGM3 */,
@@ -77,11 +75,6 @@
 			path = PGM4;
 			sourceTree = "<group>";
 		};
-		4294BC2B2170320C00996A47 /* Products */ = {
-			isa = PBXGroup;
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4294BC2D2170320C00996A47 /* PGM1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,12 +101,6 @@
 			);
 			mainGroup = 4294BBEA217031B100996A47;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4294BC2B2170320C00996A47 /* Products */;
-					ProjectRef = 4294BC2A2170320C00996A47 /* CS311.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 			);
