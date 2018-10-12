@@ -1,0 +1,151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4294BC0F2170320B00996A47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4294BC112170320B00996A47 /* odometer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = odometer.cpp; sourceTree = "<group>"; };
+		4294BC122170320B00996A47 /* main2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
+		4294BC132170320B00996A47 /* odometer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = odometer.hpp; sourceTree = "<group>"; };
+		4294BC152170320B00996A47 /* fraction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fraction.cpp; sourceTree = "<group>"; };
+		4294BC162170320B00996A47 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		4294BC1A2170320B00996A47 /* main3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main3.cpp; sourceTree = "<group>"; };
+		4294BC1B2170320B00996A47 /* fraction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fraction.hpp; sourceTree = "<group>"; };
+		4294BC1E2170320C00996A47 /* checking_account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = checking_account.hpp; sourceTree = "<group>"; };
+		4294BC1F2170320C00996A47 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		4294BC202170320C00996A47 /* savings_account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = savings_account.cpp; sourceTree = "<group>"; };
+		4294BC212170320C00996A47 /* account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = account.hpp; sourceTree = "<group>"; };
+		4294BC222170320C00996A47 /* savings_account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = savings_account.hpp; sourceTree = "<group>"; };
+		4294BC232170320C00996A47 /* account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = account.cpp; sourceTree = "<group>"; };
+		4294BC242170320C00996A47 /* main4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main4.cpp; sourceTree = "<group>"; };
+		4294BC252170320C00996A47 /* checking_account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checking_account.cpp; sourceTree = "<group>"; };
+		4294BC2A2170320C00996A47 /* CS311.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CS311.xcodeproj; sourceTree = "<group>"; };
+		4294BC2E2170320C00996A47 /* pgm1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pgm1.cpp; sourceTree = "<group>"; };
+		4294BC2F2170320C00996A47 /* reading_list.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = reading_list.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4294BBEA217031B100996A47 = {
+			isa = PBXGroup;
+			children = (
+				4294BC2A2170320C00996A47 /* CS311.xcodeproj */,
+				4294BC2D2170320C00996A47 /* PGM1 */,
+				4294BC102170320B00996A47 /* PGM2 */,
+				4294BC142170320B00996A47 /* PGM3 */,
+				4294BC1D2170320C00996A47 /* PGM4 */,
+				4294BC0F2170320B00996A47 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		4294BC102170320B00996A47 /* PGM2 */ = {
+			isa = PBXGroup;
+			children = (
+				4294BC112170320B00996A47 /* odometer.cpp */,
+				4294BC122170320B00996A47 /* main2.cpp */,
+				4294BC132170320B00996A47 /* odometer.hpp */,
+			);
+			path = PGM2;
+			sourceTree = "<group>";
+		};
+		4294BC142170320B00996A47 /* PGM3 */ = {
+			isa = PBXGroup;
+			children = (
+				4294BC152170320B00996A47 /* fraction.cpp */,
+				4294BC162170320B00996A47 /* makefile */,
+				4294BC1A2170320B00996A47 /* main3.cpp */,
+				4294BC1B2170320B00996A47 /* fraction.hpp */,
+			);
+			path = PGM3;
+			sourceTree = "<group>";
+		};
+		4294BC1D2170320C00996A47 /* PGM4 */ = {
+			isa = PBXGroup;
+			children = (
+				4294BC1E2170320C00996A47 /* checking_account.hpp */,
+				4294BC1F2170320C00996A47 /* makefile */,
+				4294BC202170320C00996A47 /* savings_account.cpp */,
+				4294BC212170320C00996A47 /* account.hpp */,
+				4294BC222170320C00996A47 /* savings_account.hpp */,
+				4294BC232170320C00996A47 /* account.cpp */,
+				4294BC242170320C00996A47 /* main4.cpp */,
+				4294BC252170320C00996A47 /* checking_account.cpp */,
+			);
+			path = PGM4;
+			sourceTree = "<group>";
+		};
+		4294BC2B2170320C00996A47 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4294BC2D2170320C00996A47 /* PGM1 */ = {
+			isa = PBXGroup;
+			children = (
+				4294BC2E2170320C00996A47 /* pgm1.cpp */,
+				4294BC2F2170320C00996A47 /* reading_list.txt */,
+			);
+			path = PGM1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4294BBEB217031B100996A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 4294BBEE217031B100996A47 /* Build configuration list for PBXProject "CS311" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4294BBEA217031B100996A47;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4294BC2B2170320C00996A47 /* Products */;
+					ProjectRef = 4294BC2A2170320C00996A47 /* CS311.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4294BBEF217031B100996A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4294BBF0217031B100996A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4294BBEE217031B100996A47 /* Build configuration list for PBXProject "CS311" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4294BBEF217031B100996A47 /* Debug */,
+				4294BBF0217031B100996A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4294BBEB217031B100996A47 /* Project object */;
+}
