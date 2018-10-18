@@ -28,7 +28,7 @@ using namespace std;
      
      // Create a int type array of that size
      ArrayDb<int> arrayINT(size);
-     cout << "/nThis second array is a 'int'!" << endl;
+     cout << "\nThis second array is a 'int'!" << endl;
      cout << "Enter a int number::" << endl;
      for(int i = 0; i < size; i++)
      {
@@ -40,7 +40,7 @@ using namespace std;
      
      // Create a float type array of that size
      ArrayDb<float> arrayFLT(size);
-     cout << "/nThis third array is a 'float'!" << endl;
+     cout << "\nThis third array is a 'float'!" << endl;
      cout << "Enter a float number::" << endl;
      for(int i = 0; i < size; i++)
      {
@@ -52,7 +52,7 @@ using namespace std;
      
      // Create a string type array of that size
      ArrayDb<double> arraySTR(size);
-     cout << "/nThis fourth array is a 'string'!" << endl;
+     cout << "\nThis fourth array is a 'string'!" << endl;
      cout << "Enter a string::" << endl;
      for(int i = 0; i < size; i++)
      {
