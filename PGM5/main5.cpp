@@ -1,6 +1,5 @@
 /*
  Program #5 - Converting arrayDb to a template class
- 
 */
 
 #include <iostream>
