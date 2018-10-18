@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		421019D42178D1BF0064848E /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		421019D52178D30E0064848E /* main5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main5.cpp; sourceTree = "<group>"; };
+		421019D62178D4630064848E /* arraydb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arraydb.cpp; sourceTree = "<group>"; };
+		421019D72178D4730064848E /* arraydb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = arraydb.hpp; sourceTree = "<group>"; };
 		4294BC0F2170320B00996A47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4294BC112170320B00996A47 /* odometer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = odometer.cpp; sourceTree = "<group>"; };
 		4294BC122170320B00996A47 /* main2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
@@ -28,9 +32,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		421019D32178D1430064848E /* PGM5 */ = {
+			isa = PBXGroup;
+			children = (
+				421019D72178D4730064848E /* arraydb.hpp */,
+				421019D62178D4630064848E /* arraydb.cpp */,
+				421019D42178D1BF0064848E /* makefile */,
+				421019D52178D30E0064848E /* main5.cpp */,
+			);
+			path = PGM5;
+			sourceTree = "<group>";
+		};
 		4294BBEA217031B100996A47 = {
 			isa = PBXGroup;
 			children = (
+				421019D32178D1430064848E /* PGM5 */,
 				4294BC2D2170320C00996A47 /* PGM1 */,
 				4294BC102170320B00996A47 /* PGM2 */,
 				4294BC142170320B00996A47 /* PGM3 */,
