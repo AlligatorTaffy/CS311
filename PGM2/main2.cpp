@@ -1,5 +1,6 @@
-/* 
-// Program Number: 2
+/*
+ AlligatorTaffy
+ Program Number: 2
 
      Description of the Problem:
      We are testing the Odometer class to determine if it is working correctly.

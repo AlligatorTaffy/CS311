@@ -1,4 +1,7 @@
-// Program Number: 2                                                           
+/*
+ AlligatorTaffy
+ Program number: 2
+ */
 
 #include "odometer.hpp"
 

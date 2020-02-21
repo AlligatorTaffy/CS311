@@ -1,9 +1,11 @@
 /*
  AlligatorTaffy
- Program #5 - Converting arrayDb to a template class
+ Program #6 - Add Out_Of_Bounds exception class to handle index out of range
+ error.
  */
 
 #include "arraydb.hpp"
+#include "out_of_bounds.hpp"
 #include <iostream>
 using namespace std;
 
@@ -65,8 +67,7 @@ Type & ArrayDb<Type>::operator[] (unsigned int i)
 {
     if (i < 0 || i >= size)
     {
-        cerr << "Error in array limits";
-        exit (1);
+        throw Out_Of_Bounds();
     }
     return arr_ptr[i];
     
@@ -78,8 +79,7 @@ const Type & ArrayDb<Type>::operator[] (unsigned int i) const
 {
     if (i < 0 || i >= size)
     {
-        cerr << "Error in array limits";
-        exit (1);
+        throw Out_Of_Bounds();
     }
     return arr_ptr[i];
 }

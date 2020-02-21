@@ -11,6 +11,11 @@
 		421019D52178D30E0064848E /* main5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main5.cpp; sourceTree = "<group>"; };
 		421019D62178D4630064848E /* arraydb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arraydb.cpp; sourceTree = "<group>"; };
 		421019D72178D4730064848E /* arraydb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = arraydb.hpp; sourceTree = "<group>"; };
+		423AB6FC2189F3D7003443B4 /* arraydb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = arraydb.hpp; sourceTree = "<group>"; };
+		423AB6FD2189F3D7003443B4 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		423AB6FE2189F3D7003443B4 /* arraydb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arraydb.cpp; sourceTree = "<group>"; };
+		423AB6FF2189F406003443B4 /* main6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main6.cpp; sourceTree = "<group>"; };
+		423AB7002189F5AA003443B4 /* out_of_bounds.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = out_of_bounds.hpp; sourceTree = "<group>"; };
 		4294BC0F2170320B00996A47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4294BC112170320B00996A47 /* odometer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = odometer.cpp; sourceTree = "<group>"; };
 		4294BC122170320B00996A47 /* main2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
@@ -43,6 +48,18 @@
 			path = PGM5;
 			sourceTree = "<group>";
 		};
+		423AB6FB2189F324003443B4 /* PGM6 */ = {
+			isa = PBXGroup;
+			children = (
+				423AB6FE2189F3D7003443B4 /* arraydb.cpp */,
+				423AB6FC2189F3D7003443B4 /* arraydb.hpp */,
+				423AB6FD2189F3D7003443B4 /* makefile */,
+				423AB6FF2189F406003443B4 /* main6.cpp */,
+				423AB7002189F5AA003443B4 /* out_of_bounds.hpp */,
+			);
+			path = PGM6;
+			sourceTree = "<group>";
+		};
 		4294BBEA217031B100996A47 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +68,7 @@
 				4294BC142170320B00996A47 /* PGM3 */,
 				4294BC1D2170320C00996A47 /* PGM4 */,
 				421019D32178D1430064848E /* PGM5 */,
+				423AB6FB2189F324003443B4 /* PGM6 */,
 				4294BC0F2170320B00996A47 /* README.md */,
 			);
 			sourceTree = "<group>";

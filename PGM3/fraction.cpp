@@ -1,4 +1,7 @@
-// Program Number: 3
+/*
+ AlligatorTaffy
+ Program #3
+ */
 
 #include <iostream>
 #include "fraction.hpp"

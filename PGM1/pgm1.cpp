@@ -1,4 +1,7 @@
-// CS311A - Program #1
+/*
+ AlligatorTaffy
+ Program #1
+ */
 
 #include <iostream>
 #include <fstream>

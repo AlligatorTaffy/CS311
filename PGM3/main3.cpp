@@ -1,4 +1,5 @@
-/*                                                        
+/*
+  AlligatorTaffy
   Program Number: 3
 
      Description of the Problem:

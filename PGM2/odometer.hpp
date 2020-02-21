@@ -1,5 +1,6 @@
 /*
-// Program Number: 2                                                           
+ AlligatorTaffy
+ Program Number: 2                                                           
 
      Description of the problem:
      This is a odometer class that will create an empty odometer or one with a 

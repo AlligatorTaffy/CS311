@@ -1,9 +1,11 @@
 /*
  AlligatorTaffy
- Program #5 - Converting arrayDb to a template class
+ Program #6 - Add Out_Of_Bounds exception class to handle index out of range
+ error.
  
  Description of the problem:
- Convert ArrayDb into a templated class to accept the 9 basic types
+ Testing if the templated arrayDb class can handle an array out of bounds
+ execption without causing the program to crash.
  
  Pseudo Code:
  Data:
